@@ -8,4 +8,5 @@ I'm a student learning to code.
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=eduardo2580&theme=dark&background=000000)](https://git.io/streak-stats)
 
 [![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=eduardo2580&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+
 **Note:** "Most Used Languages" is a metric of the languages i use in my public repositories.
