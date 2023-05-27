@@ -1,4 +1,4 @@
-<p align="center"> Hey there 👋 </p>
+<h1 align="center"> Hey there 👋 </h1>
 <div align="center">
   <a href="https://www.linkedin.com/in/eduardo-souza-rodrigues-4853b1256/">
     <img src="https://img.shields.io/badge/-Eduardo-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Badge">
