@@ -1,10 +1,7 @@
-<h1 align="center"> Hey there 👋 </h1>
+<h1 align="center">Hey there 👋</h1>
 <div align="center">
-  <a href="https://www.linkedin.com/in/eduardo-souza-rodrigues/">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Badge">
-  </a>
-  <a href="https://www.instagram.com/eduardobenattii/">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram Badge">
+  <a href="https://linktr.ee/eduardo2580">
+    <img src="https://img.shields.io/badge/Linktree-9c27b0?style=flat-square&logo=linktree&logoColor=white" alt="Linktree Badge">
   </a>
 </div>
 
@@ -12,13 +9,14 @@
 
 🚀 Aspiring Web Designer | Junior Developer
 
-#### Education
-- 🏫 Technical High School in Informatics - SENAC
-
-#### Skills
+### Skills
 - 💻 Coding, Operating Systems, and App Suites
 - 🌟 Lifelong Learner
 - 🛠 Some Experience with ServiceNow
+
+### Languages and Tools
+
+<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> </p>
 
 ### My stats
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=eduardo2580&theme=dark&background=000000)](https://git.io/streak-stats)
