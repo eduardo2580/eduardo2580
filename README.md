@@ -25,4 +25,4 @@
 
 **Note:** "Most Used Languages" is a metric of the languages i use in my public repositories.
 
-© 2024 Eduardo Souza Rodrigues. All rights reserved.
+© 2023-2024 Eduardo Souza Rodrigues. All rights reserved.
