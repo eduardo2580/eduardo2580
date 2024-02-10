@@ -24,3 +24,5 @@
 [![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=eduardo2580&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 **Note:** "Most Used Languages" is a metric of the languages i use in my public repositories.
+
+© 2024 Eduardo Souza Rodrigues. All rights reserved.
