@@ -12,9 +12,10 @@
 - 🚧 Currently exploring Kotlin and Markdown
 
 ### Languages and Tools
+Languages and tools I've used
 
 <p align="center">
-  <!-- Languages and tools I've used -->
+  Languages and tools I've used
   <a href="https://kotlinlang.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40"/>
   </a>
