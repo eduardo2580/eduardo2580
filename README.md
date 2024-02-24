@@ -11,8 +11,7 @@
 - 🛠 Some Experience with ServiceNow
 - 🚧 Currently exploring Kotlin and Markdown
 
-### Languages and Tools
-Languages and tools I've used
+### Languages and Tools I've used
 
 <p align="center">
   <a href="https://kotlinlang.org/" target="_blank" rel="noreferrer">
