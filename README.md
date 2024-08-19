@@ -32,11 +32,25 @@ This is a simple Body Mass Index (BMI) calculator app designed to help users est
 
 [Check out BMIapp](https://github.com/eduardo2580/BMIapp)
 
-### My Stats
+### My Stats 📊
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=eduardo2580&theme=dark&background=000000)](https://git.io/streak-stats)
+<div align="center">
+  <img width="48%" height="195px" src="https://github-readme-stats.vercel.app/api?username=eduardo2580&show_icons=true&count_private=true&title_color=80F7D4&icon_color=9d00ff&text_color=c9d1d9&bg_color=0d1117&border_color=fff0" alt="GitHub Stats" />
 
-[![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=eduardo2580&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+  <img width="48%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduardo2580&layout=compact&theme=vision-friendly-dark" alt="Most Used Languages" />
+</div>
+
+<div align="center">
+  <img width="48%" src="http://github-readme-streak-stats.herokuapp.com?user=eduardo2580&theme=dark&background=000000" alt="GitHub Streak Stats" />
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eduardo2580/eduardo2580/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eduardo2580/eduardo2580/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/eduardo2580/eduardo2580/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
 **Note:** "Most Used Languages" is a metric of the languages I use in my public repositories.
 
