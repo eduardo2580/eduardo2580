@@ -24,17 +24,21 @@
   </a>
 </p>
 
-### Main Project
+### Main Projects
 
-#### BMIapp
+<div align="center">
+  <a href="https://github.com/eduardo2580/BMIapp">
+    <img height="140px" width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=eduardo2580&repo=BMIapp&theme=dark&border_color=fff0" alt="BMIapp" />
+  </a>
 
-This is a simple Body Mass Index (BMI) calculator app designed to help users estimate their BMI based on input parameters such as weight, height, age, and optional factors like muscle mass, body composition, and fat distribution. Please note that the license mentioned below applies specifically to the BMIapp project.
-
-[Check out BMIapp](https://github.com/eduardo2580/BMIapp)
-
-The license specified below applies to the BMIapp project.
-
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+  <a href="https://github.com/eduardo2580/PongInPython">
+    <img height="140px" width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=eduardo2580&repo=PongInPython&theme=dark&border_color=fff0" alt="PongInPython" />
+  </a>
+  
+  <a href="https://github.com/eduardo2580/SnakeInPython">
+    <img height="140px" width="32%" src="https://github-readme-stats.vercel.app/api/pin/?username=eduardo2580&repo=SnakeInPython&theme=dark&border_color=fff0" alt="SnakeInPython" />
+  </a>
+</div>
 
 ### My Stats 📊
 
