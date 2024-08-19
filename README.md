@@ -32,6 +32,10 @@ This is a simple Body Mass Index (BMI) calculator app designed to help users est
 
 [Check out BMIapp](https://github.com/eduardo2580/BMIapp)
 
+The license specified below applies to the BMIapp project.
+
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 ### My Stats 📊
 
 <div align="center">
@@ -54,15 +58,4 @@ This is a simple Body Mass Index (BMI) calculator app designed to help users est
 
 **Note:** "Most Used Languages" is a metric of the languages I use in my public repositories.
 
-### Contact
-
-📷 Instagram: [@eduardobenattii](https://www.instagram.com/eduardobenattii/)
-
-### License
-
-The license specified below applies to the BMIapp project.
-
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-
-© 2023-2024 Eduardo Souza Rodrigues. All rights reserved.
-
+<p align="center">© 2023-2024 Eduardo Souza Rodrigues. All rights reserved.</p>
