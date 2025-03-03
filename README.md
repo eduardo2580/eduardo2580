@@ -47,7 +47,7 @@ I'm a passionate Web Designer and Junior Developer on a journey to create engagi
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
 
   <a href="https://github.com/eduardo2580/BMIwebapp">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardo2580&repo=BMIwebapp&theme=radical&border_color=fff0" alt="BMIapp" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=eduardo2580&repo=BMIwebapp&theme=radical&border_color=fff0" alt="BMIwebapp" />
   </a>
   
   <a href="https://github.com/eduardo2580/PongInPython">
