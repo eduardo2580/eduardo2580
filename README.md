@@ -110,18 +110,6 @@ Hi! I'm **Eduardo Souza Rodrigues**, a **Junior Developer** and **UI/UX Designer
 - **🎮 Classic Games**: Python recreations of timeless games
 - **📱 Responsive Design**: Mobile-optimized projects
 
-### 📊 GitHub Analytics
-
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=eduardo2580&show_icons=true&count_private=true&hide_border=true&title_color=A9FEF7&icon_color=A9FEF7&text_color=c9d1d9&bg_color=0d1117&custom_title=Eduardo's GitHub Stats" alt="GitHub Stats" />
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduardo2580&layout=compact&hide_border=true&title_color=A9FEF7&text_color=c9d1d9&bg_color=0d1117&langs_count=6" alt="Most Used Languages" />
-</div>
-
-<div align="center">
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=eduardo2580&theme=tokyonight&hide_border=true&ring=A9FEF7&fire=A9FEF7&currStreakLabel=A9FEF7" alt="GitHub Streak Stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=eduardo2580&theme=tokyonight&hide_border=true&title_color=A9FEF7&text_color=c9d1d9&bg_color=0d1117" alt="Coding Activity" />
-</div>
-
 ### 🏃‍♂️ Contribution Graph
 
 <div align="center">
