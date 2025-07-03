@@ -1,13 +1,4 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fi#### 🎯 Core Competencies
-- 💻 **Web Development**: Building responsive websites and applications
-- 🎨 **UI/UX Design**: Creating user-friendly interfaces  
-- 📚 **Continuous Learning**: Staying updated with latest technologies
-- 🛠 **ServiceNow**: Hands-on enterprise platform experience
-- 🚀 **Problem Solving**: Debugging and optimizing code&size=28&duration=2500&pause=1500&color=A9FEF7&center=true&vCenter=true&width=800&lines=Hey+there!+I'm+Eduardo+👋;Junior+Developer+%26+UI%2FUX+Designer+🚀;Crafting+Digital+Experiences+✨;Always+Learning+%26+Growing+📚" alt="Typing SVG" />
-</div>
-
-<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A9FEF7,100:7F3FBF&height=80&section=header&text=&fontSize=0" />
 </div>
 
