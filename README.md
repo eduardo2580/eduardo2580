@@ -209,3 +209,5 @@ Olá! Eu sou **Eduardo Souza Rodrigues**, um **Desenvolvedor Junior** e **Design
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
 </div>
+
+<p align="center">© 2023-2025 Eduardo Souza Rodrigues. All rights reserved.</p>
