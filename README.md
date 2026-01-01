@@ -83,7 +83,7 @@ Combining **UI/UX expertise** with **analytical thinking** to create interfaces 
 ✓ Full-Stack Versatility        → Frontend, backend, database, design
 ✓ Enterprise Systems Knowledge   → Real-world production experience
 ✓ Continuous Learning Mindset    → Always expanding technical skills
-✓ International Collaboration    → Fluent in English, Spanish, Portuguese
+✓ International Collaboration    → Fluent in English and Portuguese
 ```
 
 ## 💼 Technical Arsenal
