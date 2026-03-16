@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0820"/><stop offset="100%" stop-color="#06040e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A9FEF7"/><stop offset="100%" stop-color="#7F3FBF"/>
+    </linearGradient>
+    <filter id="g3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="400" fill="url(#bg)"/>
+
+  <!-- 3D card -->
+  <rect x="22" y="22" width="760" height="356" rx="14" fill="#7F3FBF" opacity="0.15"/>
+  <rect x="18" y="18" width="760" height="356" rx="14" fill="#1a0c30" opacity="0.55"/>
+  <rect x="14" y="14" width="760" height="356" rx="12" fill="#110a22" stroke="#7F3FBF" stroke-width="0.8"/>
+  <rect x="14" y="14" width="760" height="3"   rx="1"  fill="url(#accent)" opacity="0.8"/>
+  <rect x="14" y="14" width="3"   height="356" rx="1"  fill="#A9FEF7"     opacity="0.4"/>
+
+  <!-- section label -->
+  <text x="46" y="52" font-family="'Courier New',Courier,monospace" font-size="11" fill="#A9FEF7" letter-spacing="4" opacity="0.55">// TECH STACK</text>
+
+  <!-- Category: Web -->
+  <text x="46" y="85" font-family="'Courier New',Courier,monospace" font-size="12" fill="#7F3FBF" letter-spacing="2" opacity="0.8">WEB</text>
+  <!-- pill badges row 1: HTML CSS JS Bootstrap Node.js -->
+  <g font-family="'Courier New',Courier,monospace" font-size="13">
+    <!-- HTML -->
+    <rect x="100" y="70" width="62"  height="22" rx="11" fill="#A9FEF7" opacity="0.12" stroke="#A9FEF7" stroke-width="0.6"/>
+    <text x="131"  y="85" fill="#A9FEF7" text-anchor="middle">HTML</text>
+    <!-- CSS -->
+    <rect x="170" y="70" width="52"  height="22" rx="11" fill="#A9FEF7" opacity="0.12" stroke="#A9FEF7" stroke-width="0.6"/>
+    <text x="196"  y="85" fill="#A9FEF7" text-anchor="middle">CSS</text>
+    <!-- JS -->
+    <rect x="230" y="70" width="44"  height="22" rx="11" fill="#A9FEF7" opacity="0.12" stroke="#A9FEF7" stroke-width="0.6"/>
+    <text x="252"  y="85" fill="#A9FEF7" text-anchor="middle">JS</text>
+    <!-- Bootstrap -->
+    <rect x="282" y="70" width="100" height="22" rx="11" fill="#A9FEF7" opacity="0.12" stroke="#A9FEF7" stroke-width="0.6"/>
+    <text x="332"  y="85" fill="#A9FEF7" text-anchor="middle">Bootstrap</text>
+    <!-- Node.js -->
+    <rect x="390" y="70" width="76"  height="22" rx="11" fill="#A9FEF7" opacity="0.12" stroke="#A9FEF7" stroke-width="0.6"/>
+    <text x="428"  y="85" fill="#A9FEF7" text-anchor="middle">Node.js</text>
+  </g>
+
+  <!-- separator -->
+  <line x1="46" y1="106" x2="754" y2="106" stroke="#7F3FBF" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Category: Backend -->
+  <text x="46" y="130" font-family="'Courier New',Courier,monospace" font-size="12" fill="#7F3FBF" letter-spacing="2" opacity="0.8">BACKEND</text>
+  <g font-family="'Courier New',Courier,monospace" font-size="13">
+    <rect x="130" y="115" width="40"  height="22" rx="11" fill="#C9B8FF" opacity="0.1" stroke="#C9B8FF" stroke-width="0.6"/>
+    <text x="150"  y="130" fill="#C9B8FF" text-anchor="middle">C#</text>
+    <rect x="178" y="115" width="50"  height="22" rx="11" fill="#C9B8FF" opacity="0.1" stroke="#C9B8FF" stroke-width="0.6"/>
+    <text x="203"  y="130" fill="#C9B8FF" text-anchor="middle">.NET</text>
+    <rect x="236" y="115" width="74"  height="22" rx="11" fill="#C9B8FF" opacity="0.1" stroke="#C9B8FF" stroke-width="0.6"/>
+    <text x="273"  y="130" fill="#C9B8FF" text-anchor="middle">Python</text>
+    <rect x="318" y="115" width="52"  height="22" rx="11" fill="#C9B8FF" opacity="0.1" stroke="#C9B8FF" stroke-width="0.6"/>
+    <text x="344"  y="130" fill="#C9B8FF" text-anchor="middle">Java</text>
+  </g>
+
+  <!-- separator -->
+  <line x1="46" y1="152" x2="754" y2="152" stroke="#7F3FBF" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Category: Data & Tools -->
+  <text x="46" y="177" font-family="'Courier New',Courier,monospace" font-size="12" fill="#7F3FBF" letter-spacing="2" opacity="0.8">DATA &amp; TOOLS</text>
+  <g font-family="'Courier New',Courier,monospace" font-size="13">
+    <rect x="180" y="162" width="62"  height="22" rx="11" fill="#A9FEF7" opacity="0.08" stroke="#A9FEF7" stroke-width="0.6"/>
+    <text x="211"  y="177" fill="#A9FEF7" text-anchor="middle">MySQL</text>
+    <rect x="250" y="162" width="42"  height="22" rx="11" fill="#A9FEF7" opacity="0.08" stroke="#A9FEF7" stroke-width="0.6"/>
+    <text x="271"  y="177" fill="#A9FEF7" text-anchor="middle">Git</text>
+    <rect x="300" y="162" width="70"  height="22" rx="11" fill="#A9FEF7" opacity="0.08" stroke="#A9FEF7" stroke-width="0.6"/>
+    <text x="335"  y="177" fill="#A9FEF7" text-anchor="middle">GitHub</text>
+    <rect x="378" y="162" width="68"  height="22" rx="11" fill="#A9FEF7" opacity="0.08" stroke="#A9FEF7" stroke-width="0.6"/>
+    <text x="412"  y="177" fill="#A9FEF7" text-anchor="middle">VS Code</text>
+  </g>
+
+  <!-- separator -->
+  <line x1="46" y1="198" x2="754" y2="198" stroke="#7F3FBF" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Category: Platforms -->
+  <text x="46" y="222" font-family="'Courier New',Courier,monospace" font-size="12" fill="#7F3FBF" letter-spacing="2" opacity="0.8">PLATFORMS</text>
+  <g font-family="'Courier New',Courier,monospace" font-size="13">
+    <rect x="158" y="207" width="108" height="22" rx="11" fill="#C9B8FF" opacity="0.08" stroke="#C9B8FF" stroke-width="0.6"/>
+    <text x="212"  y="222" fill="#C9B8FF" text-anchor="middle">ServiceNow</text>
+    <rect x="274" y="207" width="142" height="22" rx="11" fill="#C9B8FF" opacity="0.08" stroke="#C9B8FF" stroke-width="0.6"/>
+    <text x="345"  y="222" fill="#C9B8FF" text-anchor="middle">Android Studio</text>
+    <rect x="424" y="207" width="56"  height="22" rx="11" fill="#C9B8FF" opacity="0.08" stroke="#C9B8FF" stroke-width="0.6"/>
+    <text x="452"  y="222" fill="#C9B8FF" text-anchor="middle">Unity</text>
+    <rect x="488" y="207" width="76"  height="22" rx="11" fill="#C9B8FF" opacity="0.08" stroke="#C9B8FF" stroke-width="0.6"/>
+    <text x="526"  y="222" fill="#C9B8FF" text-anchor="middle">Arduino</text>
+  </g>
+
+  <!-- separator -->
+  <line x1="46" y1="244" x2="754" y2="244" stroke="#7F3FBF" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Currently Learning block -->
+  <text x="46" y="268" font-family="'Courier New',Courier,monospace" font-size="12" fill="#7F3FBF" letter-spacing="2" opacity="0.8">LEARNING NOW</text>
+  <g font-family="'Courier New',Courier,monospace" font-size="13">
+    <!-- pulsing dot -->
+    <circle cx="192" cy="260" r="4" fill="#A9FEF7" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="r"       values="4;6;4"       dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="204" y="268" fill="#A9FEF7">AI Agents</text>
+    <circle cx="322" cy="260" r="4" fill="#C9B8FF" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.8s" begin="0.4s" repeatCount="indefinite"/>
+      <animate attributeName="r"       values="4;6;4"       dur="1.8s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="334" y="268" fill="#C9B8FF">Android Studio</text>
+    <circle cx="502" cy="260" r="4" fill="#A9FEF7" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.2s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="r"       values="4;6;4"       dur="2.2s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="514" y="268" fill="#A9FEF7">Generative AI</text>
+  </g>
+
+  <!-- languages spoken -->
+  <line x1="46" y1="290" x2="754" y2="290" stroke="#7F3FBF" stroke-width="0.5" opacity="0.35"/>
+  <text x="46" y="314" font-family="'Courier New',Courier,monospace" font-size="12" fill="#7F3FBF" letter-spacing="2" opacity="0.8">LANGUAGES</text>
+  <g font-family="'Courier New',Courier,monospace" font-size="13" fill="#A9FEF7">
+    <text x="168" y="314">Português</text>
+    <text x="272" y="314" fill="#7F3FBF" opacity="0.5">·</text>
+    <text x="284" y="314">English</text>
+    <text x="366" y="314" fill="#7F3FBF" opacity="0.5">·</text>
+    <text x="378" y="314" fill="#C9B8FF">Español</text>
+  </g>
+
+  <!-- bottom right version tag -->
+  <text x="754" y="355" font-family="'Courier New',Courier,monospace" font-size="10" fill="#7F3FBF" text-anchor="end" opacity="0.35">v2026</text>
+
+  <!-- exploration hook -->
+  <line x1="46" y1="365" x2="754" y2="365" stroke="#7F3FBF" stroke-width="0.5" opacity="0.25"/>
+  <text x="400" y="385" font-family="'Courier New',Courier,monospace" font-size="11"
+    fill="#A9FEF7" text-anchor="middle" letter-spacing="2" opacity="0.4">projects built with these tools  ↓</text>
+</svg>

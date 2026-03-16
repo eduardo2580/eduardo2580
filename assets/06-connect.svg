@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0820"/><stop offset="100%" stop-color="#06040e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A9FEF7"/><stop offset="100%" stop-color="#7F3FBF"/>
+    </linearGradient>
+    <linearGradient id="footGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7F3FBF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#A9FEF7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7F3FBF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="320" fill="url(#bg)"/>
+
+  <!-- 3D card -->
+  <rect x="22" y="22" width="760" height="276" rx="14" fill="#7F3FBF" opacity="0.12"/>
+  <rect x="18" y="18" width="760" height="276" rx="14" fill="#1a0c30" opacity="0.5"/>
+  <rect x="14" y="14" width="760" height="276" rx="12" fill="#110a22" stroke="#7F3FBF" stroke-width="0.8"/>
+  <rect x="14" y="14" width="760" height="3"   rx="1"  fill="url(#accent)" opacity="0.8"/>
+  <rect x="14" y="14" width="3"   height="276" rx="1"  fill="#A9FEF7" opacity="0.4"/>
+
+  <!-- section label -->
+  <text x="46" y="50" font-family="'Courier New',Courier,monospace"
+    font-size="11" fill="#A9FEF7" letter-spacing="4" opacity="0.55">// CONNECT</text>
+
+  <!-- compelling closer -->
+  <text x="400" y="78" font-family="'Courier New',Courier,monospace"
+    font-size="14" fill="#E0D4FF" text-anchor="middle" letter-spacing="1" opacity="0.9">liked what you saw?  let's build something together.</text>
+
+  <!-- divider -->
+  <line x1="46" y1="92" x2="754" y2="92" stroke="#7F3FBF" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- single-column contact rows: key  ·  value -->
+  <!-- key col x=60, dot x=148, value x=166 — all fit inside 800px safely -->
+  <g font-family="'Courier New',Courier,monospace" font-size="14">
+
+    <!-- email -->
+    <text x="60"  y="118" fill="#7F3FBF" opacity="0.75">email</text>
+    <text x="148" y="118" fill="#A9FEF7" opacity="0.25">·</text>
+    <text x="166" y="118" fill="#7FC5BF">eduardo.kvsw3@aleeas.com</text>
+
+    <!-- linkedin -->
+    <text x="60"  y="145" fill="#7F3FBF" opacity="0.75">linkedin</text>
+    <text x="148" y="145" fill="#A9FEF7" opacity="0.25">·</text>
+    <text x="166" y="145" fill="#A9FEF7" opacity="0.65">linkedin.com/in/eduardo-souza-rodrigues</text>
+
+    <!-- portfolio -->
+    <text x="60"  y="172" fill="#7F3FBF" opacity="0.75">portfolio</text>
+    <text x="148" y="172" fill="#A9FEF7" opacity="0.25">·</text>
+    <text x="166" y="172" fill="#A9FEF7" opacity="0.65">eduardo2580.github.io</text>
+
+    <!-- orcid -->
+    <text x="60"  y="199" fill="#7F3FBF" opacity="0.75">orcid</text>
+    <text x="148" y="199" fill="#A9FEF7" opacity="0.25">·</text>
+    <text x="166" y="199" fill="#C9B8FF" opacity="0.65">orcid.org/0009-0001-7877-2153</text>
+
+    <!-- lattes -->
+    <text x="60"  y="226" fill="#7F3FBF" opacity="0.75">lattes</text>
+    <text x="148" y="226" fill="#A9FEF7" opacity="0.25">·</text>
+    <text x="166" y="226" fill="#C9B8FF" opacity="0.65">lattes.cnpq.br/2487835899987366</text>
+
+    <!-- pixelfed -->
+    <text x="60"  y="253" fill="#7F3FBF" opacity="0.75">pixelfed</text>
+    <text x="148" y="253" fill="#A9FEF7" opacity="0.25">·</text>
+    <text x="166" y="253" fill="#C9B8FF" opacity="0.65">pixelfed.social/eduardo2580</text>
+
+  </g>
+
+  <!-- divider -->
+  <line x1="46" y1="267" x2="754" y2="267" stroke="url(#footGrad)" stroke-width="0.8"/>
+
+  <!-- copyright -->
+  <text x="400" y="285" font-family="'Courier New',Courier,monospace" font-size="11"
+    fill="#7F3FBF" text-anchor="middle" opacity="0.5">© 2023–2026  Eduardo Souza Rodrigues  ·  Campinas, SP 🇧🇷</text>
+
+  <!-- heartbeat pulse -->
+  <circle cx="400" cy="306" r="3" fill="#A9FEF7" opacity="0.6" filter="url(#g3)">
+    <animate attributeName="r"       values="3;5;3"       dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.15;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

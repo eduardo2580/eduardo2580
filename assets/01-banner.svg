@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 318" width="800" height="318">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="55%" r="70%">
+      <stop offset="0%" stop-color="#100820"/>
+      <stop offset="100%" stop-color="#06040e"/>
+    </radialGradient>
+    <radialGradient id="orb-l" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7F3FBF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7F3FBF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb-r" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A9FEF7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#A9FEF7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#A9FEF7"/>
+      <stop offset="50%"  stop-color="#E0D4FF"/>
+      <stop offset="100%" stop-color="#A9FEF7"/>
+    </linearGradient>
+    <linearGradient id="sepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7F3FBF" stop-opacity="0"/>
+      <stop offset="40%"  stop-color="#A9FEF7" stop-opacity="0.8"/>
+      <stop offset="60%"  stop-color="#A9FEF7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7F3FBF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g6" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="g3" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="318" fill="url(#bg)"/>
+
+  <!-- perspective grid floor — vanishing pt 400,270 -->
+  <g stroke="#A9FEF7" stroke-width="0.5" opacity="0.18">
+    <line x1="400" y1="270" x2="0"   y2="420"/>
+    <line x1="400" y1="270" x2="100" y2="420"/>
+    <line x1="400" y1="270" x2="200" y2="420"/>
+    <line x1="400" y1="270" x2="300" y2="420"/>
+    <line x1="400" y1="270" x2="400" y2="420"/>
+    <line x1="400" y1="270" x2="500" y2="420"/>
+    <line x1="400" y1="270" x2="600" y2="420"/>
+    <line x1="400" y1="270" x2="700" y2="420"/>
+    <line x1="400" y1="270" x2="800" y2="420"/>
+  </g>
+  <g stroke="#A9FEF7" stroke-width="0.4" opacity="0.14">
+    <line x1="40"  y1="380" x2="760" y2="380"/>
+    <line x1="110" y1="345" x2="690" y2="345"/>
+    <line x1="190" y1="316" x2="610" y2="316"/>
+    <line x1="280" y1="293" x2="520" y2="293"/>
+    <line x1="348" y1="278" x2="452" y2="278"/>
+  </g>
+  <line x1="0" y1="270" x2="800" y2="270" stroke="#A9FEF7" stroke-width="0.4" opacity="0.3"/>
+
+  <!-- atmospheric glows -->
+  <ellipse cx="140" cy="190" rx="160" ry="110" fill="url(#orb-l)"/>
+  <ellipse cx="660" cy="200" rx="150" ry="100" fill="url(#orb-r)"/>
+
+  <!-- left ring system -->
+  <g transform="translate(138,188)">
+    <ellipse cx="0" cy="0" rx="72" ry="22" fill="none" stroke="#7F3FBF" stroke-width="1.2" opacity="0.6" filter="url(#g3)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="52" ry="16" fill="none" stroke="#A9FEF7" stroke-width="0.8" opacity="0.45" transform="rotate(50)">
+      <animateTransform attributeName="transform" type="rotate" from="50" to="410" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="0" cy="0" r="6" fill="#C9B8FF" opacity="0.9" filter="url(#g3)"/>
+    <circle cx="0" cy="0" r="3" fill="#fff" opacity="0.9"/>
+    <circle cx="72" cy="0" r="3.5" fill="#A9FEF7" filter="url(#g3)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" cx="0" cy="0" dur="14s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- right ring system -->
+  <g transform="translate(662,198)">
+    <ellipse cx="0" cy="0" rx="64" ry="19" fill="none" stroke="#A9FEF7" stroke-width="1.2" opacity="0.55" filter="url(#g3)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="11s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="44" ry="14" fill="none" stroke="#7F3FBF" stroke-width="0.8" opacity="0.45" transform="rotate(-38)">
+      <animateTransform attributeName="transform" type="rotate" from="-38" to="-398" dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="0" cy="0" r="5" fill="#A9FEF7" opacity="0.85" filter="url(#g3)"/>
+    <circle cx="0" cy="0" r="2.5" fill="#fff" opacity="0.8"/>
+    <circle cx="-64" cy="0" r="3" fill="#C9B8FF" filter="url(#g3)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" cx="0" cy="0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- stars -->
+  <g fill="#A9FEF7">
+    <circle cx="55"  cy="22" r="1">  <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="210" cy="14" r="0.9"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="340" cy="30" r="1.1"><animate attributeName="opacity" values="0.3;1;0.3"   dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="18" r="0.8"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="610" cy="35" r="1">  <animate attributeName="opacity" values="0.1;0.6;0.1" dur="5.1s" repeatCount="indefinite"/></circle>
+    <circle cx="750" cy="20" r="0.9"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="90"  cy="65" r="0.8"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="55" r="1">  <animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.6s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#C9B8FF">
+    <circle cx="160" cy="40" r="0.8"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="440" cy="25" r="1">  <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="570" cy="50" r="0.9"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="28" r="0.7"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="4.3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- scan sweep -->
+  <line y1="0" y2="270" stroke="#A9FEF7" stroke-width="1.5" opacity="0.06">
+    <animate attributeName="x1" values="0;800;0" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;800;0" dur="9s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- corner brackets -->
+  <g stroke="#A9FEF7" stroke-width="1.5" fill="none" opacity="0.5">
+    <polyline points="16,16 16,42 42,16"/>
+    <polyline points="784,16 784,42 758,16"/>
+    <polyline points="16,404 16,378 42,404"/>
+    <polyline points="784,404 784,378 758,404"/>
+  </g>
+  <g fill="#A9FEF7" opacity="0.65">
+    <circle cx="16" cy="16" r="2"/><circle cx="784" cy="16" r="2"/>
+    <circle cx="16" cy="404" r="2"/><circle cx="784" cy="404" r="2"/>
+  </g>
+  <!-- side bars -->
+  <rect x="16" y="55" width="2" height="160" fill="#7F3FBF" opacity="0.45" rx="1"/>
+  <rect x="782" y="55" width="2" height="160" fill="#7F3FBF" opacity="0.45" rx="1"/>
+
+  <!-- NAME — large, centered, readable at 375px -->
+  <text x="400" y="148"
+    font-family="'Courier New',Courier,monospace"
+    font-size="38" font-weight="700"
+    fill="url(#nameGrad)"
+    text-anchor="middle" letter-spacing="4"
+    filter="url(#g6)">EDUARDO S. RODRIGUES</text>
+
+  <!-- role line -->
+  <text x="400" y="191"
+    font-family="'Courier New',Courier,monospace"
+    font-size="14" fill="#C9B8FF"
+    text-anchor="middle" letter-spacing="4" opacity="0.9">JUNIOR DEVELOPER · ADS @ USF</text>
+
+  <!-- location line -->
+  <text x="400" y="218"
+    font-family="'Courier New',Courier,monospace"
+    font-size="13" fill="#A9FEF7"
+    text-anchor="middle" letter-spacing="3" opacity="0.65">CAMPINAS, SP  ·  BRAZIL</text>
+
+  <!-- separator -->
+  <line x1="160" y1="236" x2="372" y2="236" stroke="url(#sepGrad)" stroke-width="0.8"/>
+  <circle cx="400" cy="236" r="3" fill="#A9FEF7" opacity="0.9" filter="url(#g3)"/>
+  <line x1="428" y1="236" x2="640" y2="236" stroke="url(#sepGrad)" stroke-width="0.8"/>
+
+  <!-- status tag -->
+  <text x="400" y="256"
+    font-family="'Courier New',Courier,monospace"
+    font-size="11" fill="#A9FEF7"
+    text-anchor="middle" letter-spacing="3" opacity="0.45">[ OPEN TO WORK ]</text>
+
+  <!-- invitation to explore -->
+  <text x="400" y="300"
+    font-family="'Courier New',Courier,monospace"
+    font-size="13" fill="#E0D4FF"
+    text-anchor="middle" letter-spacing="1" opacity="0.7">20 years old · building things that matter · see for yourself ↓</text>
+</svg>
