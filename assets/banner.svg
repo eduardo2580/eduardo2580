@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="60%" r="65%">
+      <stop offset="0%" stop-color="#0D0820"/>
+      <stop offset="100%" stop-color="#06040f"/>
+    </radialGradient>
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7F3FBF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7F3FBF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A9FEF7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#A9FEF7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow4" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow8" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#A9FEF7"/>
+      <stop offset="55%"  stop-color="#C9B8FF"/>
+      <stop offset="100%" stop-color="#A9FEF7"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#A9FEF7" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#7F3FBF" stop-opacity="0.9"/>
+      <stop offset="70%"  stop-color="#7F3FBF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A9FEF7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="340" fill="url(#bg)"/>
+
+  <!-- Perspective grid: converging lines to vanishing point 600,220 -->
+  <g opacity="0.22" stroke="#A9FEF7" stroke-width="0.6">
+    <line x1="600" y1="220" x2="0"    y2="340"/>
+    <line x1="600" y1="220" x2="120"  y2="340"/>
+    <line x1="600" y1="220" x2="240"  y2="340"/>
+    <line x1="600" y1="220" x2="360"  y2="340"/>
+    <line x1="600" y1="220" x2="480"  y2="340"/>
+    <line x1="600" y1="220" x2="600"  y2="340"/>
+    <line x1="600" y1="220" x2="720"  y2="340"/>
+    <line x1="600" y1="220" x2="840"  y2="340"/>
+    <line x1="600" y1="220" x2="960"  y2="340"/>
+    <line x1="600" y1="220" x2="1080" y2="340"/>
+    <line x1="600" y1="220" x2="1200" y2="340"/>
+  </g>
+  <!-- Horizontal foreshortened grid lines -->
+  <g opacity="0.18" stroke="#A9FEF7" stroke-width="0.5">
+    <line x1="0"   y1="340" x2="1200" y2="340"/>
+    <line x1="75"  y1="310" x2="1125" y2="310"/>
+    <line x1="168" y1="280" x2="1032" y2="280"/>
+    <line x1="280" y1="254" x2="920"  y2="254"/>
+    <line x1="400" y1="236" x2="800"  y2="236"/>
+    <line x1="510" y1="225" x2="690"  y2="225"/>
+  </g>
+
+  <!-- Horizon glow line -->
+  <line x1="0" y1="220" x2="1200" y2="220" stroke="#A9FEF7" stroke-width="0.4" opacity="0.35"/>
+
+  <!-- Atmospheric glows -->
+  <ellipse cx="220"  cy="160" rx="200" ry="130" fill="url(#orb1)"/>
+  <ellipse cx="980"  cy="170" rx="180" ry="120" fill="url(#orb2)"/>
+
+  <!-- Left orbiting ring system -->
+  <g transform="translate(210,155)">
+    <ellipse cx="0" cy="0" rx="88" ry="26" fill="none" stroke="#7F3FBF" stroke-width="1" opacity="0.55" filter="url(#glow4)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="66" ry="20" fill="none" stroke="#A9FEF7" stroke-width="0.7" opacity="0.4" transform="rotate(55)">
+      <animateTransform attributeName="transform" type="rotate" from="55" to="415" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="0" cy="0" r="6" fill="#C9B8FF" opacity="0.9" filter="url(#glow4)"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" opacity="0.8"/>
+    <circle cx="88" cy="0" r="3" fill="#A9FEF7" opacity="0.9" filter="url(#glow4)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" cx="0" cy="0" dur="14s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Right orbiting ring system -->
+  <g transform="translate(990,160)">
+    <ellipse cx="0" cy="0" rx="75" ry="22" fill="none" stroke="#A9FEF7" stroke-width="1" opacity="0.5" filter="url(#glow4)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="11s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="52" ry="16" fill="none" stroke="#7F3FBF" stroke-width="0.7" opacity="0.45" transform="rotate(-40)">
+      <animateTransform attributeName="transform" type="rotate" from="-40" to="-400" dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="0" cy="0" r="5"   fill="#A9FEF7" opacity="0.85" filter="url(#glow4)"/>
+    <circle cx="0" cy="0" r="2.5" fill="#ffffff" opacity="0.7"/>
+    <circle cx="-75" cy="0" r="2.5" fill="#C9B8FF" opacity="0.9" filter="url(#glow4)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" cx="0" cy="0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Twinkling star field — cyan -->
+  <g fill="#A9FEF7">
+    <circle cx="85"   cy="28" r="1">   <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="155"  cy="58" r="0.8"> <animate attributeName="opacity" values="0.1;0.7;0.1" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="47"   cy="90" r="1.2"> <animate attributeName="opacity" values="0.3;1;0.3"   dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="310"  cy="18" r="0.9"> <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="440"  cy="42" r="1">   <animate attributeName="opacity" values="0.1;0.6;0.1" dur="5.1s" repeatCount="indefinite"/></circle>
+    <circle cx="500"  cy="78" r="0.7"> <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="740"  cy="22" r="1">   <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="820"  cy="55" r="0.8"> <animate attributeName="opacity" values="0.1;0.7;0.1" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="900"  cy="30" r="1.1"> <animate attributeName="opacity" values="0.3;1;0.3"   dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="45" r="0.9"> <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="72" r="1">   <animate attributeName="opacity" values="0.1;0.6;0.1" dur="4.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1170" cy="25" r="0.7"> <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- Twinkling star field — purple -->
+  <g fill="#C9B8FF">
+    <circle cx="130"  cy="45" r="0.8"> <animate attributeName="opacity" values="0.1;0.6;0.1" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="380"  cy="65" r="1">   <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="570"  cy="30" r="0.9"> <animate attributeName="opacity" values="0.1;0.7;0.1" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="660"  cy="55" r="1.1"> <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="775"  cy="38" r="0.7"> <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="960"  cy="62" r="1">   <animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1090" cy="18" r="0.8"> <animate attributeName="opacity" values="0.3;1;0.3"   dur="2.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Vertical scan-line sweep -->
+  <line y1="0" y2="220" stroke="#A9FEF7" stroke-width="1.5" opacity="0.07">
+    <animate attributeName="x1" values="0;1200;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;1200;0" dur="8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Corner bracket accents -->
+  <g stroke="#A9FEF7" stroke-width="1.5" fill="none" opacity="0.55">
+    <polyline points="18,18 18,46 46,18"/>
+    <polyline points="1182,18 1182,46 1154,18"/>
+    <polyline points="18,322 18,294 46,322"/>
+    <polyline points="1182,322 1182,294 1154,322"/>
+  </g>
+  <g fill="#A9FEF7" opacity="0.7">
+    <circle cx="18"   cy="18"  r="2"/>
+    <circle cx="1182" cy="18"  r="2"/>
+    <circle cx="18"   cy="322" r="2"/>
+    <circle cx="1182" cy="322" r="2"/>
+  </g>
+
+  <!-- Side depth bars -->
+  <rect x="18"   y="60" width="2" height="200" fill="#7F3FBF" opacity="0.4" rx="1"/>
+  <rect x="1180" y="60" width="2" height="200" fill="#7F3FBF" opacity="0.4" rx="1"/>
+
+  <!-- Name -->
+  <text x="600" y="142"
+    font-family="'Courier New',Courier,monospace"
+    font-size="48"
+    font-weight="700"
+    fill="url(#nameGrad)"
+    text-anchor="middle"
+    letter-spacing="6"
+    filter="url(#glow8)">EDUARDO SOUZA RODRIGUES</text>
+
+  <!-- Role subtitle -->
+  <text x="600" y="186"
+    font-family="'Courier New',Courier,monospace"
+    font-size="15"
+    fill="#C9B8FF"
+    text-anchor="middle"
+    letter-spacing="5"
+    opacity="0.88">JUNIOR DEVELOPER · ADS @ USF · CAMPINAS, SP</text>
+
+  <!-- Separator lines + centre dot -->
+  <line x1="260" y1="204" x2="558" y2="204" stroke="url(#lineGrad)" stroke-width="1"/>
+  <circle cx="600" cy="204" r="3" fill="#A9FEF7" opacity="0.95" filter="url(#glow4)"/>
+  <line x1="642" y1="204" x2="940" y2="204" stroke="url(#lineGrad)" stroke-width="1"/>
+
+  <!-- Status strip -->
+  <text x="600" y="222"
+    font-family="'Courier New',Courier,monospace"
+    font-size="11"
+    fill="#A9FEF7"
+    text-anchor="middle"
+    letter-spacing="4"
+    opacity="0.5">[ OPEN TO WORK · WEB · SERVICENOW · AI AGENTS ]</text>
+</svg>
