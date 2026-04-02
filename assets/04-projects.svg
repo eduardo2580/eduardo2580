@@ -29,8 +29,8 @@
   <rect x="36" y="74" width="352" height="138" rx="10" fill="#A9FEF7" opacity="0.04"/>
   <rect x="32" y="70" width="352" height="138" rx="10" fill="url(#card-a)" stroke="#A9FEF7" stroke-width="0.6" opacity="0.45"/>
   <rect x="32" y="70" width="352" height="2.5" rx="1"  fill="#A9FEF7" opacity="0.55"/>
-  <text x="52" y="96"  font-family="'Courier New',Courier,monospace" font-size="15" font-weight="700" fill="#A9FEF7">Portfolio</text>
-  <text x="52" y="116" font-family="'Courier New',Courier,monospace" font-size="12" fill="#C9B8FF" opacity="0.7">Personal website &amp; showcase</text>
+  <text x="52" y="96"  font-family="'Courier New',Courier,monospace" font-size="15" font-weight="700" fill="#A9FEF7">Sacred Bible</text>
+  <text x="52" y="116" font-family="'Courier New',Courier,monospace" font-size="12" fill="#C9B8FF" opacity="0.7">Bible in Portuguese</text>
   <text x="52" y="136" font-family="'Courier New',Courier,monospace" font-size="11" fill="#7F3FBF" opacity="0.8">HTML · CSS · JS</text>
   <text x="52" y="155" font-family="'Courier New',Courier,monospace" font-size="11" fill="#A9FEF7" opacity="0.5">eduardo2580.github.io</text>
 
@@ -38,12 +38,11 @@
   <rect x="420" y="74" width="354" height="138" rx="10" fill="#C9B8FF" opacity="0.03"/>
   <rect x="416" y="70" width="354" height="138" rx="10" fill="url(#card-b)" stroke="#C9B8FF" stroke-width="0.6" opacity="0.45"/>
   <rect x="416" y="70" width="354" height="2.5" rx="1"  fill="#C9B8FF" opacity="0.45"/>
-  <text x="436" y="96"  font-family="'Courier New',Courier,monospace" font-size="14" font-weight="700" fill="#C9B8FF">O Futuro do Trabalho</text>
-  <text x="436" y="116" font-family="'Courier New',Courier,monospace" font-size="12" fill="#A9FEF7" opacity="0.65">2023 · Social Impact</text>
+  <text x="436" y="96"  font-family="'Courier New',Courier,monospace" font-size="14" font-weight="700" fill="#C9B8FF">JavaProjects</text>
+  <text x="436" y="116" font-family="'Courier New',Courier,monospace" font-size="12" fill="#A9FEF7" opacity="0.65">All my Java Projects.</text>
   <!-- trophy badge — decorative only, no button shape -->
-  <text x="580" y="116" font-family="'Courier New',Courier,monospace" font-size="11" fill="#C9B8FF" opacity="0.75">🏆 Projeto do Ano</text>
-  <text x="436" y="136" font-family="'Courier New',Courier,monospace" font-size="11" fill="#7F3FBF" opacity="0.8">HTML · CSS · JS · Bootstrap · VLibras</text>
-  <text x="436" y="155" font-family="'Courier New',Courier,monospace" font-size="11" fill="#C9B8FF" opacity="0.45">github.com/eduardo2580/EMED_SENAC</text>
+  <text x="436" y="136" font-family="'Courier New',Courier,monospace" font-size="11" fill="#7F3FBF" opacity="0.8">Java</text>
+  <text x="436" y="155" font-family="'Courier New',Courier,monospace" font-size="11" fill="#C9B8FF" opacity="0.45">github.com/eduardo2580/JavaProjects</text>
 
   <!-- ── CARD 3 — Campo Minado (bottom-left) ── -->
   <rect x="36" y="232" width="352" height="120" rx="10" fill="#A9FEF7" opacity="0.03"/>
@@ -52,7 +51,7 @@
   <text x="52" y="254" font-family="'Courier New',Courier,monospace" font-size="15" font-weight="700" fill="#A9FEF7">Campo Minado</text>
   <text x="52" y="274" font-family="'Courier New',Courier,monospace" font-size="12" fill="#C9B8FF" opacity="0.65">Minesweeper implementation</text>
   <text x="52" y="294" font-family="'Courier New',Courier,monospace" font-size="11" fill="#7F3FBF" opacity="0.8">Web</text>
-  <text x="52" y="313" font-family="'Courier New',Courier,monospace" font-size="11" fill="#A9FEF7" opacity="0.45">github.com/eduardo2580</text>
+  <text x="52" y="313" font-family="'Courier New',Courier,monospace" font-size="11" fill="#A9FEF7" opacity="0.45">github.com/eduardo2580/minesweeper</text>
 
   <!-- ── CARD 4 — Legalização da Maconha (bottom-right) ── -->
   <rect x="420" y="232" width="354" height="120" rx="10" fill="#C9B8FF" opacity="0.02"/>
