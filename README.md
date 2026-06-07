@@ -28,14 +28,9 @@
 <!-- ── STACK ───────────────────────────────────────────────────────── -->
 <img src="assets/03-stack.svg" alt="Tech Stack" width="100%"/>
 
-<br/><br/>
-
-<!-- ── GITHUB STATS (external API — scales via width=100%) ─────────── -->
-<img src="https://github-readme-stats.vercel.app/api?username=eduardo2580&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_color=7F3FBF&border_radius=10&bg_color=0D1117&title_color=A9FEF7&icon_color=C9B8FF&text_color=FFFFFF" alt="GitHub Stats" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eduardo2580&layout=compact&langs_count=6&theme=radical&border_color=7F3FBF&border_radius=10&bg_color=0D1117&title_color=A9FEF7&text_color=FFFFFF" alt="Top Languages" width="49%"/>
-
 <br/>
 
+<!-- ── GITHUB STATS (external API — scales via width=100%) ─────────── -->
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=eduardo2580&theme=radical&border=7F3FBF&background=0D1117&stroke=7F3FBF&ring=A9FEF7&fire=FF6B6B&currStreakLabel=A9FEF7&border_radius=10" alt="Streak" width="100%"/>
 
 <br/><br/>
