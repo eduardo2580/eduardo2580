@@ -9,27 +9,17 @@
 <!-- ── BANNER ──────────────────────────────────────────────────────── -->
 <img src="assets/01-banner.svg" alt="Eduardo Souza Rodrigues" width="100%"/>
 
-<br/><br/>
-
 <!-- ── ABOUT ───────────────────────────────────────────────────────── -->
 <img src="assets/02-about.svg" alt="About Eduardo" width="100%"/>
-
-<br/><br/>
 
 <!-- ── STACK ───────────────────────────────────────────────────────── -->
 <img src="assets/03-stack.svg" alt="Tech Stack" width="100%"/>
 
-<br/><br/>
-
 <!-- ── PROJECTS ────────────────────────────────────────────────────── -->
 <img src="assets/04-projects.svg" alt="Projects" width="100%"/>
 
-<br/><br/>
-
 <!-- ── CERTIFICATIONS ──────────────────────────────────────────────── -->
 <img src="assets/05-certs.svg" alt="Certifications" width="100%"/>
-
-<br/><br/>
 
 <!-- ── CONTRIBUTION SNAKE ──────────────────────────────────────────── -->
 <picture>
