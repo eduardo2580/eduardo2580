@@ -9,15 +9,6 @@
 <!-- ── BANNER ──────────────────────────────────────────────────────── -->
 <img src="assets/01-banner.svg" alt="Eduardo Souza Rodrigues" width="100%"/>
 
-<br/>
-
-<!-- ── BADGES (shields.io — rendered natively, always mobile-safe) ── -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-souza-rodrigues/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5733?style=flat-square&logo=firefox&logoColor=white)](https://eduardo2580.github.io/)
-[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-7877-2153)
-[![Lattes](https://img.shields.io/badge/Lattes-003087?style=flat-square)](https://lattes.cnpq.br/2487835899987366)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:eduardo.kvsw3@aleeas.com)
-
 <br/><br/>
 
 <!-- ── ABOUT ───────────────────────────────────────────────────────── -->
@@ -27,11 +18,6 @@
 
 <!-- ── STACK ───────────────────────────────────────────────────────── -->
 <img src="assets/03-stack.svg" alt="Tech Stack" width="100%"/>
-
-<br/>
-
-<!-- ── GITHUB STATS (external API — scales via width=100%) ─────────── -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=eduardo2580&theme=radical&border=7F3FBF&background=0D1117&stroke=7F3FBF&ring=A9FEF7&fire=FF6B6B&currStreakLabel=A9FEF7&border_radius=10" alt="Streak" width="100%"/>
 
 <br/><br/>
 
