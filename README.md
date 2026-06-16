@@ -21,6 +21,10 @@
 <!-- ── CERTIFICATIONS ──────────────────────────────────────────────── -->
 <img src="assets/05-certs.svg" alt="Certifications" width="100%"/>
 
+<!-- ── CONNECT / FOOTER ────────────────────────────────────────────── -->
+<img src="assets/06-connect.svg" alt="Connect" width="100%"/>
+
+<br/><br/>
 <!-- ── CONTRIBUTION SNAKE ──────────────────────────────────────────── -->
 <picture>
   <source media="(prefers-color-scheme: dark)"
@@ -30,10 +34,4 @@
   <img alt="contribution snake" width="100%"
        src="https://raw.githubusercontent.com/eduardo2580/eduardo2580/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
-
-<br/><br/>
-
-<!-- ── CONNECT / FOOTER ────────────────────────────────────────────── -->
-<img src="assets/06-connect.svg" alt="Connect" width="100%"/>
-
 </div>
